@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Bảng đăng nhập</title>
+    </head>
+    <body>
+        <h1>Guest Reservation</h1>
+        <fieldset>
+            <legend>General Information</legend>
+            <label for="Arival date">Arrival date: </label>
+<input type="text" name="Arrival date" id="Arrival date">
+<br>
+            <label for="Nights">Nights: </label>
+            <input type="text" name ="Nights" id="Nights">
+ <br>
+            <label for="Adults">Adults: </label>
+            <select name ="Adults">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select> 
+<br>
+            <label for="Childern">Childern: </label>
+            <select name ="Childern">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select> 
+        </fieldset>
+<br>
+        <fieldset>
+            <legend>Perfernces</legend>
+            <label>Room type: </label>
+            <label>
+            <input type="radio" name="Standard" value="Standard">Standard
+            </label>
+            <label>
+            <input type="radio" name="Business" value="Business">Business
+            </label>
+            <label>
+            <input type="radio" name="Suite" value="Suite">Suite
+            </label>
+<br>
+            <label>
+            <input type="radio" name="King" value="King">King
+            </label>
+            <label>
+            <input type="radio" name="Double Double" value="Double Double">Double Double
+            </label>
+<br>
+            <label>
+            <input type="checkbox" name="Smoking">
+            Smoking
+            </label>
+<br>
+        </fieldset>   
+<br>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label>Name: </label>
+            <input type="text" name="Name" id="Name">
+            <br>
+            <label>Email: </label>
+            <input type="text" name="Email" id="Email">
+            <br>
+            <label>Phone: </label>
+            <input type="text" name="Phone" id="Phone">
+        </fieldset>
+<br>
+            <input type ="submit" name ="Submit Reservation" value="Submit Reservation">     
+    </body>
+</html>
